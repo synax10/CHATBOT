@@ -46,7 +46,7 @@ SOURCE_TEXT = f"""
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
 """
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
-SOURCE = 'https://github.com/Noob-mukesh/Chatbot'
+SOURCE = 'https://github.com/Ranavanshi/Doramon-chat-bot/tree/main'
 x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 async def is_admins(chat_id: int):
@@ -59,17 +59,17 @@ async def is_admins(chat_id: int):
 
 MAIN = [
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="❀ᴅᴇᴠᴇʟᴏᴘᴇʀ❀", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text=" ❀ꜱᴜᴘᴘᴏʀᴛ❀ ", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text="❀ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ❀",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text="❀ʜᴇʟᴘ & ᴄᴍᴅs❀ ", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data='source'),
@@ -79,12 +79,12 @@ MAIN = [
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+             text="❀ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ❀",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", 
+         InlineKeyboardButton(text="❀sᴜᴘᴘᴏʀᴛ❀", 
                               url=f"https://t.me/{SUPPORT_GRP}",
          ),
      ],
@@ -94,7 +94,7 @@ HELP_READ = "**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛ�
 HELP_BACK = [
      
     [
-           InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK"),
+           InlineKeyboardButton(text="❀ʙᴀᴄᴋ❀", callback_data="HELP_BACK"),
     ]
 ]
 @Mukesh.on_message(filters.incoming & filters.private, group=-1)
@@ -116,7 +116,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=link),
+                                InlineKeyboardButton("❀ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ❀", url=link),
                             ]
                         ]
                     )
@@ -176,17 +176,17 @@ async def source(bot, m):
 @Mukesh.on_message(filters.command(["ping","alive"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
         start = datetime.now()
-        t = "__ριиgιиg...__"
+        t = "__ᜣﺃꪀᧁﺃꪀᧁ...__"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
-        await txxt.edit_text("__ριиgιиg.....__")
+        await txxt.edit_text("__ᜣﺃꪀᧁﺃꪀᧁ.....__")
         await asyncio.sleep(0.35)
         await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [ᴍᴜᴋᴇsʜ](https://t.me/legend_coder)||**",
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ || [𝕯𝖎𝖛𝖞𝖓𝖆𝖍𝖘𝖚](https://t.me/ranavanshi_divy)||**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
