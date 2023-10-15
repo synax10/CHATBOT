@@ -47,7 +47,7 @@ def stats(update: Update, context: CallbackContext) -> None:
     context.bot.send_message(update.message.chat_id, f"Bot is connected to {groups_count} groups.")
 
 # Set up the Telegram bot
-updater = Updater("YOUR_BOT_TOKEN")
+updater = Updater("os.environ.get("BOT_TOKEN", None)")
 dp = updater.dispatcher
 
 # Add command handlers
