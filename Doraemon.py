@@ -16,9 +16,9 @@ API_HASH = os.environ.get("API_HASH", None)
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = os.environ.get("MONGO_URL", None)
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL","mr_sukkun")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","legend_coder")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP","the_support_chat")
+UPDATE_CHNL = os.environ.get("UPDATE_CHNL","synax10")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","ASHWANI10")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP","synax_chats")
 BOT_NAME = os.environ.get("BOT_NAME","CHATBOT")
 START_IMG = os.environ.get("START_IMG","")
 
@@ -46,7 +46,7 @@ SOURCE_TEXT = f"""
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
 """
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
-SOURCE = 'https://github.com/Ranavanshi/Doramon-chat-bot/tree/main'
+SOURCE = 'https://github.com/synax10/CHATBOT/tree/main'
 x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 async def is_admins(chat_id: int):
